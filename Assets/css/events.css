@@ -82,3 +82,71 @@
     font-family: "SF Pro Display Medium", sans-serif;
     font-size: 45px
 }
+
+.event-details-gpp{
+    margin-top: 50px;
+    width: auto;
+    height: auto ;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.event-details-gpp img{
+    width: 100%;
+    height: auto;
+}
+
+.tentative-button{
+    background-color: #010953;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tentative-button:hover{
+    background-color: #9fa9ff;
+    color: #010953;
+    animation: ease-in-out 0.3ms;
+
+
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+.lightbox-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.lightbox-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

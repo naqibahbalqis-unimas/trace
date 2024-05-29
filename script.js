@@ -332,3 +332,27 @@ window.addEventListener('load', () => {
         }
     })
 })
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxClose = document.querySelector('.lightbox-close');
+
+    document.querySelectorAll('.tentative-button').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent the default link behavior
+            lightbox.style.display = 'block';
+        });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === lightbox) {
+            lightbox.style.display = 'none';
+        }
+    });
+});
