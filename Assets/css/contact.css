@@ -1,0 +1,62 @@
+.navbar{
+    background: #040a3c
+}
+
+.info-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.image-container{
+    width: auto;
+    height: 400px ;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #040a3c;
+}
+.position{
+    font-size: 15px;
+    font-weight: 500;
+    color: #040a3c;
+}
+
+.location{
+    font-size: 15px;
+    font-weight: 500;
+    color: #040a3c;
+}
+
+.title{
+    font-size: 50px;
+    color: #040a3c;
+    font-family: "SF Pro Display Bold", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.row{
+    margin-bottom: 80px;
+}
+
+.contact-number{
+    font-size: 15px;
+    font-weight: 500;
+    color: #040a3c;
+
+}
+
+.row footer{
+    margin:0;
+}

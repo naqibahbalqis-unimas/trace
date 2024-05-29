@@ -1,0 +1,84 @@
+
+.navbar{
+    background: #040a3c;
+    position: relative; /* Add position to use z-index */
+    z-index: 1050; /* A high index ensures it's on top of other content */
+
+}
+
+.event-card {
+    position: relative; /* Relative positioning for absolute positioning of the button */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgba(17, 16, 107, 0.84), rgba(2, 0, 113, 0.22)), url("../images/fair.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 973px;
+    height: 481px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.event-card:hover {
+    transform: scale(1.05); /* Scales up the card by 5% on hover */
+}
+
+/* Keyframes for additional smoothness and responsiveness */
+@keyframes scaleUp {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.event-card:hover {
+    animation: scaleUp 0.5s forwards; /* Uses the keyframes for animation on hover */
+}
+
+.event-text {
+    height: 100%;
+    padding-top: 180px;
+    padding-left: 80px;
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 45px;
+}
+
+.container-button {
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor (event-card) */
+    bottom: 50px; /* 20px from the bottom */
+    right: 30px; /* 20px from the right */
+}
+
+
+.card-pos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-white {
+    height: 10px; /* Specifies the thickness of the line */
+    width: 91px; /* Adjust the width as necessary */
+    background-color: #fff; /* White color line */
+    margin-top: 20px; /* Space between the text and the line */
+}
+
+.event-title{
+    margin-top:40px;
+    font-size: 41px;
+    font-weight: bold;
+    font-family: "SF Pro Display Medium", sans-serif;
+    text-align: center;
+    color: #040a3c;
+}
+
+.event-text-pages{
+    height: 100%;
+    padding-top: 90px;
+    padding-left: 80px;
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 45px
+}
