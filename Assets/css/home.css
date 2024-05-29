@@ -155,7 +155,6 @@ font-family: "SF Pro Display Medium", sans-serif;
 .video-showcase{
     background-color: #f2f5f9;
     padding: 50px 0;
-    height: 100vh;
     text-align: center;
 }
 
@@ -216,6 +215,9 @@ font-family: "SF Pro Display Medium", sans-serif;
 
     .location{
         height: 110vh
+    }
+    .location-image{
+        width: 100%;
     }
 }
 
