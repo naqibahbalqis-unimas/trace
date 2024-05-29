@@ -182,3 +182,55 @@ font-family: "SF Pro Display Medium", sans-serif;
     margin-bottom: 20px;
     font-weight: bold;
 }
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .key-figures {
+        height: auto;  /* Allow the container to expand as needed */
+    }
+    .key-figures .row {
+        flex-direction: column;  /* Stack key figures boxes in a column */
+        align-items: center;     /* Center the boxes */
+    }
+    .key-figures-box {
+        width: 80%;    /* Adjust width for mobile */
+        margin-left: 0;
+    }
+
+    .university-hero{
+        font-size: 20px;
+    }
+    .trace-hero{
+        font-size: 100px;
+    }
+
+    .trace-name-hero{
+        font-size: 20px;
+    }
+
+    .subtext-trace{
+        height: fit-content;
+        padding-bottom: 90px;
+    }
+
+    .location{
+        height: 110vh
+    }
+}
+
+.responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    height: 0;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
