@@ -214,7 +214,7 @@ font-family: "SF Pro Display Medium", sans-serif;
     }
 
     .location{
-        height: 110vh
+        height: fit-content;
     }
     .location-image{
         width: 100%;
