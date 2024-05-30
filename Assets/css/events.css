@@ -150,3 +150,60 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    .event-card {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .event-text {
+        padding-left: 20px;
+        font-size: 30px;
+        padding-top: 100px;
+    }
+
+    .container-button {
+        bottom: 30px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .event-card {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .event-text {
+        padding-left: 15px;
+        font-size: 25px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .container-button {
+        bottom: 20px;
+        right: 10px;
+    }
+
+    .event-title {
+        font-size: 30px;
+    }
+
+    .event-text-pages {
+        font-size: 35px;
+    }
+
+    .tentative-button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .learn-more-btn{
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+}

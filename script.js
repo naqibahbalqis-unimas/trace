@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
-        { src: 'Assets/images/background-2.jpg', alt: 'GPP', date: '2022-01-01', href: 'gallery-pages/tracetour-gallery.html' },
+        { src: 'Assets/images/background-2.jpg', alt: 'Graduate Professional Programme', date: '2022-01-01', href: 'gallery-pages/tracetour-gallery.html' },
         { src: 'Assets/images/evangeline-shaw-VLkoOabAxqw-unsplash.jpg', alt: 'Trace Tour', date: '2022-02-01', href: 'gallery-pages/tracetour-gallery.html' },
         // Add more images with respective links
     ];
