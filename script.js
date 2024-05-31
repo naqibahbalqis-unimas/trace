@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
         { src: 'Assets/images/background-2.jpg', alt: 'Graduate Professional Programme', date: '2022-01-01', href: 'gallery-pages/tracetour-gallery.html' },
-        { src: 'Assets/images/evangeline-shaw-VLkoOabAxqw-unsplash.jpg', alt: 'Trace Tour', date: '2022-02-01', href: 'gallery-pages/tracetour-gallery.html' },
+        { src: 'Assets/images/440740562_888023369795978_1223897293292447630_n.jpg', alt: 'Trace Tour', date: '2022-02-01', href: 'gallery-pages/tracetour-gallery.html' },
         // Add more images with respective links
     ];
 
@@ -229,15 +229,11 @@ class Photo {
 }
 
 const MY_PHOTOS = [
-    {title: 'Plane wings outside plane window', img: 'https://images.unsplash.com/photo-1515916712510-8590717327d3?auto=format&fit=crop&w=627&q=80',description: 'Plane wings outside plane window', by: 'James Coleman', category: 'Wings'},
-    {title: 'Orange, green, and black tent', img: 'https://images.unsplash.com/photo-1502954819424-7ed05cf95b43?auto=format&fit=crop&w=627&q=80', description: 'Orange, green, and black tent', by: 'Martine Jacobsen', category: 'Camping'},
-    {title: 'Woman in black shirt taking selfie', img: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=627&q=80', description: 'Woman in black shirt taking selfie', by: 'Gracia Dharma', category: 'Anime'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
-    {title: 'Girl Writing on bed', img: 'https://images.unsplash.com/flagged/photo-1545622783-901effb998a8?auto=format&fit=crop&w=627&q=80', description: 'Girl Writing on bed', by: 'Jonathan Borba', category: 'Christmas'},
+    {title: 'Trace Tour', img: '/Assets/images/440740562_888023369795978_1223897293292447630_n.jpg',description: 'Trace Tour', by: 'Trace', category: 'Wings'},
+    {title: 'Trace Tour', img: '/Assets/images/440946467_888023413129307_1800706479878257359_n.jpg', description: 'Trace Tour', by: 'Trace', category: 'Anime'},
+    {title: 'Trace Tour', img: '/Assets/images/440934305_888023473129301_3894397668208119508_n.jpg', description: 'Trace Tour', by: 'Trace', category: 'Camping'},
+    {title: 'Trace Tour', img: '/Assets/images/441520375_888023549795960_4167533163628946152_n.jpg', description: 'Trace Tour', by: 'Trace', category: 'Christmas'},
+
 
 ]
 

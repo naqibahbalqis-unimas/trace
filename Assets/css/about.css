@@ -155,3 +155,16 @@
     }
 
 }
+
+.hero-title-container1 {
+    background: linear-gradient(rgba(4, 10, 60, 0.59), rgba(4, 10, 60, 0.59)), url('../images/handshake.jpg');    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 100%; /* Ensures the container takes full width */
+}

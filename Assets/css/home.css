@@ -172,6 +172,7 @@ font-family: "SF Pro Display Medium", sans-serif;
     height: 100vh;
     margin-top: 30px;
 
+
 }
 
 .location-title{
@@ -204,12 +205,18 @@ font-family: "SF Pro Display Medium", sans-serif;
     text-align: center;
 }
 
-.location-image img{
-    width: 50%;
-    height: 100%;
-    margin: 0 auto;
+.location-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.location-image img {
+    width: 50%;
+    height: auto;
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
 /* Mobile styles */
 @media (max-width: 768px) {
     .key-figures {
