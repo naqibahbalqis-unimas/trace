@@ -62,6 +62,7 @@
 .item img{
     width: 100%;
     height: auto;
+    margin: 0 auto
 }
 
 .modal {
@@ -136,4 +137,21 @@
     width: 100px; /* adjust size as necessary */
     height: 100px; /* adjust size as necessary */
     display: none; /* initially hidden */
+}
+
+@media (max-width: 768px) {
+    .item{
+        width: 600px;
+        height: auto;
+        margin: 10px;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .item img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto
+    }
+
 }
