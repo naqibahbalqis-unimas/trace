@@ -273,19 +273,21 @@ input[name="categories"] {
     display: block;
 }
 
-[value="Christmas"]:checked ~ #gallery .gallery__figure:not([data-category~="Christmas"]),
-[value="Anime"]:checked ~ #gallery .gallery__figure:not([data-category~="Anime"]),
+[value="FCSIT"]:checked ~ #gallery .gallery__figure:not([data-category~="FCSIT"]),
+[value="FSSH"]:checked ~ #gallery .gallery__figure:not([data-category~="FSSH"]),
 [value="Camping"]:checked ~ #gallery .gallery__figure:not([data-category~="Camping"]),
 [value="Wings"]:checked ~ #gallery .gallery__figure:not([data-category~="Wings"]) {
     display: none;
 }
 
 [value="all"]:checked ~ .categories [for="all"],
-[value="Christmas"]:checked ~ .categories [for="Christmas"],
-[value="Anime"]:checked ~ .categories [for="Anime"],
+[value="FCSIT"]:checked ~ .categories [for="FCSIT"],
+[value="FSSH"]:checked ~ .categories [for="FSSH"],
 [value="Camping"]:checked ~ .categories [for="Camping"],
 [value="Wings"]:checked ~ .categories [for="Wings"] {
-    color: #1b95e0;
+    color: #ffffff;
+    background: #040a3c;
+    padding: 0 10px;
 }
 
 @keyframes fade-in {

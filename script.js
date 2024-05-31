@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const images = [
-        { src: 'Assets/images/background-2.jpg', alt: 'Graduate Professional Programme', date: '2022-01-01', href: 'gallery-pages/tracetour-gallery.html' },
-        { src: 'Assets/images/440740562_888023369795978_1223897293292447630_n.jpg', alt: 'Trace Tour', date: '2022-02-01', href: 'gallery-pages/tracetour-gallery.html' },
+        { src: 'Assets/images/fssh_45.JPG', alt: 'Graduate Professional Programme', date: '2024-05-10', href: 'gallery-pages/gpp-gallery.html' },
+        { src: 'Assets/images/440740562_888023369795978_1223897293292447630_n.jpg', alt: 'Trace Tour', date: '2024-04-01', href: 'gallery-pages/tracetour-gallery.html' },
         // Add more images with respective links
     ];
 
