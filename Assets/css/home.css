@@ -274,4 +274,11 @@ font-family: "SF Pro Display Medium", sans-serif;
     height: 100%;
     border: 0;
 }
+.image-container{
+    padding-top: 50px;
+}
+.image-container img{
+    width: 100%;
+    margin: 0 auto;
 
+}
