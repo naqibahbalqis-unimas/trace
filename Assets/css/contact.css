@@ -50,13 +50,20 @@
     margin-bottom: 80px;
 }
 
-.contact-number{
+.email {
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     background: #040a3c;
-    padding: 20px 10px
+    padding: 20px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+}
 
+.email:hover {
+    background: #063880; /* New background color on hover */
+    color: #f2f5f9; /* New text color on hover */
 }
 
 .row footer{

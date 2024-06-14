@@ -5,7 +5,6 @@
     display: block;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +50,6 @@ body {
     animation-fill-mode: forwards; /* Ensures the element remains visible after the animation */
 }
 
-
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -80,10 +78,7 @@ body {
     border-radius: 0px; /* Optional: rounded corners for Material look */
     margin-top: 0; /* Remove default Bootstrap spacing */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for a better feel */
-    opacity: 0; /* Start hidden */
-    transform: translateY(-20px); /* Start slightly above */
-    display: block; /* Override Bootstrap's 'display: none' for transition */
-    pointer-events: none; /* Prevent interaction when not visible */
+    display: none;
 }
 
 /* Adjust the link appearance */
@@ -95,7 +90,9 @@ body {
 }
 
 /* Styling when dropdown is active/hovered */
-.navbar .nav-item.dropdown:hover .dropdown-menu {
+.navbar .nav-item.dropdown:hover .dropdown-menu.show,
+.navbar .nav-item.dropdown .dropdown-menu.show {
+    display: block;
     opacity: 1; /* Make visible */
     transform: translateY(0); /* Move to natural position */
     pointer-events: auto; /* Allow interaction */
@@ -141,10 +138,8 @@ body {
     width: 100%; /* Full width when active */
 }
 
-
 .navbar .nav-link::after {
-    width: 0;
-/ / Ensures the line is hidden initially
+    width: 0; /* Ensures the line is hidden initially */
 }
 
 .navbar .nav-link {
@@ -182,9 +177,8 @@ footer {
     background: linear-gradient(rgba(0, 47, 255, 0.2), rgba(7, 34, 126, 0.2)), url("../images/background.png");
     background-size: cover;
     padding: 30px;
-    margin-top: 90px ;
+    margin-top: 90px;
 }
-
 
 .footer-title {
     margin-top: 30px;
@@ -225,7 +219,6 @@ footer {
 
 li {
     list-style-type: none;
-
 }
 
 ul {
@@ -247,7 +240,6 @@ a {
     color: #f2f5f9;
 }
 
-
 .title-header {
     background-color: #040a3c;
     color: white;
@@ -263,34 +255,13 @@ a {
     border-bottom: 1px solid #ffffff;
 }
 
-
 .footer-logo img {
     width: 285px;
     height: auto;
     display: block;
 }
 
-.navbar .dropdown-menu {
-    background-color: white;
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    margin-top: 0; /* Remove default Bootstrap spacing */
-    opacity: 0; /* Start hidden */
-    transform: translateY(-20px); /* Start slightly above */
-    display: block; /* Override Bootstrap's 'display: none' for transition */
-    pointer-events: none; /* Prevent interaction when not visible */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for a better feel */
-}
-
-/* Styling when dropdown is active/hovered */
-.navbar .nav-item.dropdown:hover .dropdown-menu {
-    opacity: 1; /* Make visible */
-    transform: translateY(0); /* Move to natural position */
-    pointer-events: auto; /* Allow interaction */
-}
-
-
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .navbar-toggler {
         border-color: rgba(0, 0, 0, .1); /* Optional: if you want to change the toggler icon color */
     }
@@ -334,7 +305,6 @@ a {
         }
     }
 
-
     .nav-item {
         margin-right: 10px; /* Reduce margin between items */
     }
@@ -354,8 +324,8 @@ a {
         height: 100vh;!important;
     }
 
-    .logo{
-        width:79px;
+    .logo {
+        width: 79px;
     }
     .navbar-brand {
         background: white;
@@ -364,9 +334,7 @@ a {
         width: 300px; /* Adjust for mobile */
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         margin-right: 8px;
     }
-
 }
-
