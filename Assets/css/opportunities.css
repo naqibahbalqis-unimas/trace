@@ -31,3 +31,12 @@
 .embed-container{
     margin-top: 100px;
 }
+
+@media (max-width: 768px) {
+    .iframe-container {
+        height: 400px;
+        margin-bottom: 100px;
+    }
+
+
+}
