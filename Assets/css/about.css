@@ -166,6 +166,12 @@
     .about-text{
         font-size: 14px;
     }
+    .image-container-exhibitor{
+        width: 100%;
+    }
+    .image-container-exhibitor img{
+        width: 100%;
+    }
 }
 
 .hero-title-container1 {
@@ -246,3 +252,46 @@
     margin-top: 40px;
 
 }
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.partners img{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.partners-title, .exhibitor-title{
+    font-size: 40px;
+    color: #040a3c;
+    font-family: "SF Pro Display Bold", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.exhibitor {
+    text-align: center;
+}
+
+.image-container-exhibitor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the container horizontally */
+    width: 90%; /* Set the width of the container */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.image-container-exhibitor img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
